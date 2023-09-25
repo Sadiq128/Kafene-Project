@@ -20,6 +20,7 @@ $.ajax({
     }
 })
 
+
 let tableData = document.getElementById("table-data");
 // Creating Table Rows for Phrama Data
 function createTableRow(data) {
