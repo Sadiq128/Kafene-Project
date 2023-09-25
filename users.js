@@ -85,6 +85,7 @@ function search(value, data) {
     return newData;
 }
 
+
 document.getElementById("sign-out").addEventListener("click", function () {
     localStorage.setItem("loginStatus", false);
     location.assign("./index.html");
