@@ -59,6 +59,7 @@ $(".check-boxes").on("change", function () {
 });
 
 
+
 function getCheckedItems(orderData, filteredData) {
   let data = orderData;
   var getCheckedRows = data.filter(function (store) {
